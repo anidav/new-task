@@ -1,0 +1,63 @@
+.fieldset {
+    border: 3px solid #d8d4d4;
+    border-radius: 10px;
+    outline: none;
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    background-color: rgb(243, 233, 233);
+}
+
+.steps {
+    color: rgb(73, 72, 72);
+    text-align: center;
+    font-size: 30px;
+}
+
+.package {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #494848;
+    background-color: #fff;
+    font-size: 15px;
+    padding: 30px;
+    margin: 20px;
+    border: 3px solid #d8d4d4;
+    border-radius: 10px;
+}
+.button_div {
+    display: flex;
+    justify-content: center;
+}
+
+.button_item {
+    font-size:  25px;
+    border: 1px solid rgb(214, 214, 219); 
+    background-color: rgb(104, 83, 136);   
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 20px;
+    cursor: pointer;   
+}
+
+.field {
+    border: 3px solid #cec8c8;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 15px;
+}
+
+.congrats {
+    color: rgb(73, 72, 72);
+}
+
+@media only screen and (max-width: 767px) {
+    .fieldset {
+        width: 90% !important;
+    }
+}
